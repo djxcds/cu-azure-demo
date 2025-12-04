@@ -6,7 +6,7 @@ using System.Collections.Generic;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Azure Data Solution Demo API is running!");
+app.MapGet("/", () => "Azure Data Solution Demo API is running in CU Azure Demo Web App");
 
 app.MapGet("/products", async () =>
 {
